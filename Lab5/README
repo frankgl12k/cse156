@@ -1,0 +1,17 @@
+Frank I Gomez
+figomez / figomez@ucsc.edu
+ID: 1650550
+
+Files:
+-Top-
+Makefile - The makefile for myproxy.c. Generates myproxy in /bin.
+README - The README for the simple web proxy program. Displays basic information on the program.
+
+-Top/bin-
+myproxy - The executable program for the web proxy. Run with bin/myproxy listen_port forbidden_sites_file_path access_log_file_path.
+
+-Top/doc-
+Simple Web Proxy Documentation.pdf - More indepth documentation of this program. Includes 5 test cases.
+
+-Top/src-
+myproxy.c - The source code for server side of this program. Must be compiled to run.

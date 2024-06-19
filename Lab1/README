@@ -1,0 +1,18 @@
+Frank I Gomez
+figomez / figomez@ucsc.edu
+ID: 1650550
+
+Files:
+-Top-
+Makefile - The makefile for myweb.c. Generates myweb in /bin.
+README - The README for the simple web downloader. Displays basic information on the program.
+output.dat - The output file for the simple web downloader after successful usage.
+
+-Top/bin-
+myweb - The executable program for this simple web downloader. Run with bin/myweb www.example.com 93.184.216.34:80/index.html . Port is optional. Append -h to the end to return the header to stdout instead.
+
+-Top/doc-
+Simple Web Downloader Documentaion.pdf - More indepth documentation of this program. Includes 5 test cases.
+
+-Top/src-
+myweb.c - The source code for this program. Must be compiled to run.

@@ -1,0 +1,19 @@
+Frank I Gomez
+figomez / figomez@ucsc.edu
+ID: 1650550
+
+Files:
+-Top-
+Makefile - The makefile for myclient.c and myserver.c. Generates myclient and myserver in /bin.
+README - The README for the simple reliable file replication program. Displays basic information on the program.
+
+-Top/bin-
+myserver - The executable program for the server side of this program. Run with bin/myserver server_port droppc root_folder_path.
+myclient - The executable program for the client side of this program. Run with bin/myclient servn servaddr.conf MTU WINSZ in_file_path out_file_path.
+
+-Top/doc-
+Simple Reliable File Replication Documentation.pdf - More indepth documentation of this program. Includes 5 test cases.
+
+-Top/src-
+myserver.c - The source code for server side of this program. Must be compiled to run.
+myclient.c - The source code for client side of this program. Must be compiled to run.
